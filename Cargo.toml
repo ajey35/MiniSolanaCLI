@@ -1,7 +1,15 @@
 [package]
-name = "minsol"
-version = "0.1.0"
+name = "minsol"             
+version = "0.1.0"                 
 edition = "2024"
+authors = ["Ajeyakumara K,ajeyakumara07@gmail.com"]
+description = "A minimal CLI for interacting with the Solana blockchain"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ajey35/MiniSolanaCLI"
+keywords = ["solana", "cli", "blockchain"]
+categories = ["command-line-utilities"]
+homepage = "https://github.com/ajey35/MiniSolanaCLI"
 
 [dependencies]
 anyhow = "1.0.98"
