@@ -13,7 +13,7 @@ A simple, lightweight command-line tool for quick interactions with the Solana b
 
 ---
 
-### Installation  
+## Installation  
 
 ### Install directly from source
 ```bash
@@ -30,8 +30,7 @@ cargo build --release
 
 ### Install globally using Cargo
 ```bash
-cargo install --path .
-# or, if published to crates.io
+#  published to crates.io
 cargo install minsol
 ```
 
@@ -93,3 +92,4 @@ minsol send --keypair my-keypair.json --to <RECIPIENT_ADDRESS> --amount 0.5
 
 ## 📄 License  
 This project is licensed under the **MIT License** – feel free to use and modify.
+
