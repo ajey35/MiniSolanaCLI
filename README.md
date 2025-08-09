@@ -28,7 +28,7 @@ cargo build --release
 ./target/release/minsol --help
 ```
 
-### Install globally using Cargo
+### Install from Cargo Crates
 ```bash
 #  published to crates.io
 cargo install minsol
@@ -62,7 +62,7 @@ minsol [OPTIONS] <COMMAND>
 
 ---
 
-## 🛠 Examples  
+##  Examples  
 
 ```bash
 # Create a new keypair
@@ -83,7 +83,7 @@ minsol send --keypair my-keypair.json --to <RECIPIENT_ADDRESS> --amount 0.5
 
 ---
 
-## 🌐 Cluster Support  
+##  Cluster Support  
 - **Devnet** → For development & testing  
 - **Localnet** → For local blockchain testing  
 - **Mainnet** → For real transactions  
@@ -92,4 +92,5 @@ minsol send --keypair my-keypair.json --to <RECIPIENT_ADDRESS> --amount 0.5
 
 ## 📄 License  
 This project is licensed under the **MIT License** – feel free to use and modify.
+
 
